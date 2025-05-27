@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Commandos
 {
-    public class Commando
+    internal class Commando
     {
         protected string Name;
         public string CodeName { get; set; }
@@ -47,9 +47,9 @@ namespace Commandos
             this.status = Status.hiding;
         }
 
-        public void Attack()
+        public virtual void Attack()
         {
-            Console.WriteLine($"The commando 'wiht codeName {this.CodeName} is attacking.");
+            Console.WriteLine($"The commando wiht codeName {this.CodeName} is attacking.");
         }
 
         public enum Status

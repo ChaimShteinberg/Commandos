@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Commandos
 {
-    public class SeaCommando: Commando
+    internal class SeaCommando: Commando
     {
         public SeaCommando(string name, string codeName): base (name, codeName)
         {
@@ -15,6 +15,11 @@ namespace Commandos
         public void Swim()
         {
             Console.WriteLine("The soldier swims");
+        }
+
+        public override void Attack()
+        {
+            Console.WriteLine($"The Sea Commando is attacking.");
         }
     }
 }

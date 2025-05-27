@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Commandos
 {
-    public class AirCommando: Commando
+    internal class AirCommando: Commando
     {
         public AirCommando(string name, string codeName):base (name, codeName)
         {
@@ -15,6 +15,11 @@ namespace Commandos
         public void Parachute()
         {
             Console.WriteLine("The soldier parachutes");
+        }
+
+        public override void Attack()
+        {
+            Console.WriteLine($"The Air Commando is attacking.");
         }
     }
 }
