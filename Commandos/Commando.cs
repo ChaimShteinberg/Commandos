@@ -8,7 +8,7 @@ namespace Commandos
 {
     public class Commando
     {
-        private string Name;
+        protected string Name;
         public string CodeName { get; set; }
         public string[] Weapons = { "Hammer", "chisel", "rope", "bag", "water bottle" };
         private Status status = Status.Standing;
