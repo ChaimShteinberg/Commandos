@@ -19,6 +19,22 @@ namespace Commandos
             this.CodeName = codeName;
         }
 
+        public string SayName(string commanderRank)
+        {
+            if (commanderRank == "GENERAL")
+            {
+                return this.Name;
+            }
+            else if (commanderRank == "COLONER")
+            {
+                return this.CodeName;
+            }
+            else
+            {
+                return "Classified information";
+            }
+        }
+
         public void Walk()
         {
             Console.WriteLine("The soldier is walking");
