@@ -11,19 +11,15 @@ namespace Commandos
         static void Main(string[] args)
         {
             Commando myCommando = new Commando("Chaim", "kodcode");
-            myCommando.Walk();
-            myCommando.Hide();
-            myCommando.Attack();
-            Console.WriteLine(myCommando.SayName("GENERAL"));
-            Console.WriteLine(myCommando.SayName("COLONEL"));
-            Console.WriteLine(myCommando.SayName("CHAIM"));
-            Console.WriteLine(myCommando.CodeName);
-            myCommando.CodeName = "kodcode2";
-            Console.WriteLine(myCommando.CodeName);
+            AirCommando myAirCommando = new AirCommando("mendy", "big");
+            SeaCommando mySeaCommando = new SeaCommando("meir", "small");
 
-            Weapon myWeapon = new Weapon("Sidearm", "IDF", 1);
-            myWeapon.Shoot();
-            myWeapon.Shoot();
+            Commando[] myCommandos = { myCommando, myAirCommando, mySeaCommando };
+
+            foreach (Commando c in myCommandos)
+            {
+                c.Attack();
+            }
         }
     }
 }
