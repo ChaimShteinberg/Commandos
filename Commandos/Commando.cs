@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Commandos
 {
-    public class Commandos
+    public class Commando
     {
         private string Name;
         private string CodeName;
         private string[] Weapons = { "Hammer", "chisel", "rope", "bag", "water bottle" };
         private Status status = Status.Standing;
 
-        public Commandos(string name, string codeName)
+        public Commando(string name, string codeName)
         {
             this.Name = name;
             this.CodeName = codeName;

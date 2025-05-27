@@ -10,7 +10,14 @@ namespace Commandos
     {
         static void Main(string[] args)
         {
+            Commando myCommando = new Commando("Chaim", "kodcode");
+            myCommando.Walk();
+            myCommando.Hide();
+            myCommando.Attack();
 
+            Weapon myWeapon = new Weapon("Sidearm", "IDF", 1);
+            myWeapon.Shoot();
+            myWeapon.Shoot();
         }
     }
 }

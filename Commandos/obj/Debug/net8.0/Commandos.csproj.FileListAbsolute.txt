@@ -1,0 +1,15 @@
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\bin\Debug\net8.0\Commandos.exe
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\bin\Debug\net8.0\Commandos.deps.json
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\bin\Debug\net8.0\Commandos.runtimeconfig.json
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\bin\Debug\net8.0\Commandos.dll
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\bin\Debug\net8.0\Commandos.pdb
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.AssemblyInfoInputs.cache
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.AssemblyInfo.cs
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.csproj.CoreCompileInputs.cache
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.sourcelink.json
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.dll
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\refint\Commandos.dll
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.pdb
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\Commandos.genruntimeconfig.cache
+C:\Users\Chaim0533197133\OneDrive\Documents\programming\projects\Commandos\Commandos\obj\Debug\net8.0\ref\Commandos.dll
