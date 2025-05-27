@@ -9,8 +9,8 @@ namespace Commandos
     public class Commando
     {
         private string Name;
-        private string CodeName;
-        private string[] Weapons = { "Hammer", "chisel", "rope", "bag", "water bottle" };
+        public string CodeName { get; set; }
+        public string[] Weapons = { "Hammer", "chisel", "rope", "bag", "water bottle" };
         private Status status = Status.Standing;
 
         public Commando(string name, string codeName)
@@ -25,7 +25,7 @@ namespace Commandos
             {
                 return this.Name;
             }
-            else if (commanderRank == "COLONER")
+            else if (commanderRank == "COLONEL")
             {
                 return this.CodeName;
             }
