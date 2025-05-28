@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Commandos.Models;
 
-namespace Commandos.Soldiers.Actions
+namespace Commandos.Services
 {
     internal class Hiding
     {
+        static void Hide(Commando soldier)
+        {
+            Console.WriteLine("The soldier is hiding");
+            soldier.status = Status.Hiding;
+        }
     }
 }

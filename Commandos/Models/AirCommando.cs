@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Commandos
+﻿namespace Commandos.Models
 {
     internal class AirCommando: Commando
     {
@@ -12,7 +6,7 @@ namespace Commandos
         {
         }
 
-        public void Parachute()
+        static void Parachute()
         {
             Console.WriteLine("The soldier parachutes");
         }

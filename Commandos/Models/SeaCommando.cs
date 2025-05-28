@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Commandos
+﻿namespace Commandos.Models
 {
     internal class SeaCommando: Commando
     {
@@ -12,7 +6,7 @@ namespace Commandos
         {
         }
 
-        public void Swim()
+        static void Swim()
         {
             Console.WriteLine("The soldier swims");
         }

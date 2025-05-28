@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Commandos.Models;
 
-namespace Commandos.Soldiers.Actions
+namespace Commandos.Services
 {
-    internal class Walking
+    public class Walking
     {
+        static void Walk(Commando soldier)
+        {
+            Console.WriteLine("The soldier is walking");
+            soldier.status = Status.Walking;
+        }
     }
 }
