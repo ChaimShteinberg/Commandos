@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Commandos.Enums;
 
 namespace Commandos
 {
@@ -38,25 +39,18 @@ namespace Commandos
         public void Walk()
         {
             Console.WriteLine("The soldier is walking");
-            this.status = Status.walking;
+            this.status = Status.Walking;
         }
 
         public void Hide()
         {
             Console.WriteLine("The soldier is hiding");
-            this.status = Status.hiding;
+            this.status = Status.Hiding;
         }
 
         public virtual void Attack()
         {
-            Console.WriteLine($"The commando wiht codeName {this.CodeName} is attacking.");
-        }
-
-        public enum Status
-        {
-            Standing, 
-            walking, 
-            hiding
-        }
+            Console.WriteLine($"The commando with codeName {this.CodeName} is attacking.");
+        }        
     }
 }
